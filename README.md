@@ -10,6 +10,12 @@ Vanilla JS, HTML and CSS.
 
 but its looking good isn't it?☺️
 
+#### About
+
+`Vanilla JS`✍️
+`Responsive`✍️
+`Interactive Menu`✍️
+
 #### Facts 💻
 
 I've been able to made it responsive!📲
