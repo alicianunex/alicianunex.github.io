@@ -1,0 +1,127 @@
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #intro-area .contents .head-title {
+    font-size: 40px;
+  }
+  .services-item .services-content h3 a {
+    font-size: 14px;
+  }
+}
+
+/* tablets */
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .services-item .services-content h3 a {
+    font-size: 14px;
+  }
+  .services-item {
+    margin-bottom: 20px;
+  }
+  .profile-wrapper {
+    padding: 140px 0;
+    background-color: rgba(137, 145, 147, 0.24);
+    margin: 10px 10px 0px 0px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-bottom: -10px;
+  }
+  img.me {
+    background: #fafbfc;
+    box-shadow: 4px 6px 20px 0 rgba(24, 32, 32, 0.6588235294117647);
+    position: absolute;
+    max-width: 90px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .controls {
+    text-align: center;
+    margin-left: -35px;
+    padding-right: 0px;
+  }
+
+  nav.navbar {
+    margin-top: -20px;
+    margin-left: -50px;
+  }
+  ul.social-icon {
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: -10px;
+    padding-inline: 60px;
+  }
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .services-item .services-content h3 a {
+    font-size: 16px;
+  }
+  .services-item {
+    margin-bottom: 20px;
+  }
+  .counter-section .counter p {
+    font-size: 14px;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .section-sub {
+    font-size: 16px;
+  }
+  .navbar-brand img {
+    margin: 5px 0;
+  }
+  nav.navbar {
+    margin-top: -20px;
+    margin-left: -50px;
+  }
+  a.nav-link {
+    color: black;
+    position: relative;
+    padding: 1px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  #intro-area .contents {
+    padding: 40px 0px 60px 0px;
+  }
+  #intro-area .contents .head-title {
+    font-size: 22px;
+  }
+  #intro-area .contents h5 {
+    font-size: 32px;
+  }
+  #intro-area .contents p {
+    font-size: 20px;
+  }
+  .services-item {
+    margin-bottom: 20px;
+  }
+  .timeline li .line-title {
+    line-height: 26px;
+  }
+  .timeline li:first-child i {
+    margin: -12px -40px;
+  }
+  .contact-form-area {
+    padding: 40px 0px;
+  }
+  .footer-right-area {
+    margin-top: 20px;
+  }
+}
