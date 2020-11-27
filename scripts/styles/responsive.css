@@ -48,10 +48,9 @@
     margin-left: -50px;
   }
   ul.social-icon {
-    padding-bottom: 15px;
-    text-align: center;
-    margin-top: -10px;
-    padding-inline: 60px;
+    margin-left: -90px;
+    display: flex;
+    padding-top: 15px;
   }
 }
 
@@ -72,6 +71,9 @@
   }
 }
 
+div.resumesection {
+  margin-left: -30px;
+}
 /* mobile or only mobile */
 @media (max-width: 767px) {
   .section-title {
@@ -96,7 +98,9 @@
     text-transform: uppercase;
     display: flex;
   }
-
+  .intro-area-bg {
+    background-size: cover;
+  }
   #intro-area .contents {
     padding: 40px 0px 60px 0px;
   }
