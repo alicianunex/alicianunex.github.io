@@ -280,13 +280,14 @@ img.resume {
   display: block;
   padding-bottom: 100px;
   color: #00000038;
-  text-shadow: 1px 1px #d6d6d6b6, 2px 2px #e7e7e77a, 3px 3px #a5a49e,
-    4px 4px #a5a49e, 5px 5px #a5a49e, 6px 6px #a5a49e, 7px 7px #a5a49e,
-    8px 8px #a5a49e, 9px 9px #a5a49e, 10px 10px #a5a49e, 11px 11px #a5a49e,
-    12px 12px #a5a49e, 13px 13px #a5a49e, 14px 14px #a5a49e, 15px 15px #a5a49e,
-    16px 16px #a5a49e, 17px 17px #a5a49e, 18px 18px #a5a49e, 19px 19px #a5a49e,
-    20px 20px #a5a49e, 21px 21px #a5a49e, 22px 22px #a5a49e, 23px 23px #a5a49e,
-    24px 24px #a5a49e;
+  text-shadow: 1px 1px #d6d6d663, 2px 2px #e7e7e77a, 3px 3px #c4cccc57,
+    4px 4px #c4cccc57, 5px 5px #c4cccc57, 6px 6px #c4cccc57, 7px 7px #c4cccc57,
+    8px 8px #c4cccc57, 9px 9px #c4cccc57, 10px 10px #c4cccc57,
+    11px 11px #c4cccc57, 12px 12px #c4cccc57, 13px 13px #c4cccc57,
+    14px 14px #c4cccc57, 15px 15px #c4cccc57, 16px 16px #c4cccc57,
+    17px 17px #c4cccc57, 18px 18px #c4cccc57, 19px 19px #c4cccc57,
+    20px 20px #c4cccc57, 21px 21px #c4cccc57, 22px 22px #c4cccc57,
+    23px 23px #c4cccc57, 24px 24px #a5a49e66;
 }
 #intro-area {
   color: #fff;
