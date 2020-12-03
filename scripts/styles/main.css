@@ -126,23 +126,10 @@ ul.social-icon {
   z-index: 1;
 }
 
-.projectlink:hover {
-  color: #fff;
-  background-color: #04171b;
-  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-}
-
 .projectlink {
-  padding: 14px 33px;
   text-transform: uppercase;
   font-size: 16px;
-  margin-bottom: 50px;
   margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 100px;
 }
 
 p.project {
@@ -187,7 +174,6 @@ img.me {
   float: left;
 }
 img.projectlink,
-img.projectimg,
 img.resume {
   border: 8px solid #fff;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
@@ -199,6 +185,16 @@ img.resume {
   width: 300px;
   max-width: 500px;
   margin-left: 35px;
+}
+
+img.projectlink {
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+}
+
+img.projectlink:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 .profile-wrapper {

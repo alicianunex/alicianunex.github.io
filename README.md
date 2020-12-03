@@ -24,7 +24,7 @@ As I should, and I'm super happy about that and with the final result.✅
 This is the first code I make totally alone since the bootcamp finished without my instructors and that's why I'm even way prouder
 
 ### BYE BYE 👋🏻
-`Inspired by many 🖤`
 
+`Inspired by many 🖤`
 
 `Developed with LOVE by me for me 😁`

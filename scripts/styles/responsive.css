@@ -129,3 +129,10 @@ div.resumesection {
     margin-top: 20px;
   }
 }
+a.nav-link:hover {
+  -webkit-text-stroke: 2px var(--fill-color);
+  background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+  color: transparent;
+  background-clip: text;
+  transition: 0.2s linear;
+}
