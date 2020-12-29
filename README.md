@@ -1,30 +1,20 @@
-## This is my Portfolio Website👩‍💻
+### PORTFOLIO WEBSITE
 
-I had a few problems at the beginning with the first repository I made for this, so deleted it, made another and now its archived.
+##### Hey!👋🏻 I gave my web a new and fresh look because it was need it.
 
-It's been a rollercoaster but my portfolio it's here and live!✌🏻🤞🏻
+###### This web is now 100% Responsive. Ready to be visualized in your favourite device.
 
-#### Technologies ⚒
+### TOOLS
 
-Vanilla JS, HTML and CSS.
+- PURE HTML5
+- CSS3 + Some basic Animations
+- and very little Vanilla JS.
 
-but its looking good isn't it?☺️
+### Extra Technologies
 
-#### About
+- Ionicons
+- Font Awesome
 
-`Vanilla JS`✍️
-`Responsive`✍️
-`Interactive Menu`✍️
+#### Take a look!
 
-#### Facts 💻
-
-I've been able to made it responsive!📲
-As I should, and I'm super happy about that and with the final result.✅
-
-This is the first code I make totally alone since the bootcamp finished without my instructors and that's why I'm even way prouder
-
-### BYE BYE 👋🏻
-
-`Inspired by many 🖤`
-
-`Developed with LOVE by me for me 😁`
+<img src="./scripts/images/responsive.jpg" width="500" height="425" />
