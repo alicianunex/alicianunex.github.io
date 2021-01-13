@@ -616,7 +616,7 @@ a img {
   }
 }
 /* ------------------------------------------------------------------- 
- * stack on small mobile devices - (_grid.scss)
+ * stack on small mobile devices 
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
   .stack .bgrid {
@@ -625,5 +625,38 @@ a img {
     clear: both !important;
     margin-left: 0;
     margin-right: 0;
+  }
+}
+/* footer */
+@media only screen and (max-width: 768px) {
+  .footer-main {
+    text-align: center;
+  }
+  .footer-main .row {
+    max-width: 480px;
+  }
+  .footer-main [class*='col-'] {
+    margin-bottom: 3.6rem;
+  }
+
+  footer h4.h05 {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  footer h4.h05::after {
+    left: 50%;
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-bottom {
+    padding-bottom: 0.6rem;
+  }
+  .footer-bottom .copyright span {
+    display: block;
+  }
+  .footer-bottom .copyright span::after {
+    display: none;
   }
 }
