@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 html {
   font-size: 10px;
 }
@@ -145,20 +147,57 @@ a:focus {
 }
 
 #title {
-  animation: glitch 0.7s linear infinite;
+  font-size: 87px;
+  line-height: calc(20px + 20vh);
+  text-shadow: 0 0 5px #fff, 0 0 25px #f1f1f1;
+  color: #fff;
+  font-family: 'Kristi', cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+  margin-top: -10.5rem;
+  text-transform: lowercase;
+  margin-left: -4rem;
 }
 
-@keyframes glitch {
-  2%,
-  64% {
-    transform: translate(6px, 0) skew(0deg);
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
   }
-  4%,
-  60% {
-    transform: translate(-4px, 0) skew(4deg);
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 15px #f1f1f1;
+    color: #fff;
   }
-  62% {
-    transform: translate(0, 0) skew(5deg);
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #fff;
   }
 }
 
@@ -208,7 +247,117 @@ title:after {
     transform: translate(-22px, 5px) skew(21deg);
   }
 }
-
+.visible {
+  float: right;
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+}
+.animate {
+  list-style: none;
+  animation: 6s linear 0s normal none infinite change;
+  -webkit-animation: 6s linear 0s normal none infinite change;
+  -moz-animation: 6s linear 0s normal none infinite change;
+  -o-animation: 6s linear 0s normal none infinite change;
+}
+.animate li {
+  line-height: 40px;
+  margin: 0;
+}
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  40% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -80px;
+  }
+  65% {
+    margin-top: -80px;
+  }
+  75% {
+    margin-top: -40px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  40% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -80px;
+  }
+  65% {
+    margin-top: -80px;
+  }
+  75% {
+    margin-top: -40px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.mover {
+  width: 237px;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: 'Muli';
+  color: #ecf0f1;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -105px;
+  text-align: left;
+}
 /* typography*/
 h1,
 h2,
@@ -708,15 +857,19 @@ header .header-logo a {
   margin: 0 0 0.9rem 0;
 }
 .home-content-tablecell h1 {
-  font-family: 'montserrat-bold', serif;
-  font-size: 9rem;
-  line-height: 1.133;
+  font-size: 4.2rem;
+  line-height: 0.8533;
   color: #ffffff;
+  font-family: 'Muli';
+  text-transform: uppercase;
+  margin-inline-end: -4rem;
 }
 .home-content-tablecell .more {
   margin: 4.8rem 0 0 0;
 }
-
+.more.animate {
+  padding-top: 10rem;
+}
 /* scroll down */
 .scrolldown {
   position: absolute;
