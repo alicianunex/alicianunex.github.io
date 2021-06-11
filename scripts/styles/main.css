@@ -768,9 +768,9 @@ header .row {
 
 /*  header logo  */
 header .header-logo {
-  position: absolute;
-  left: 32px;
-  top: 42px;
+  position: relative;
+  left: 2px;
+  top: 5px;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
@@ -785,8 +785,8 @@ header .header-logo a {
   border: none;
   width: 57px;
   height: 27px;
-  background: url('../images/logo.png') no-repeat center;
-  background-size: 57px 27px;
+  background: url('../images/logomio.png') no-repeat center;
+  background-size: 55px 55px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -802,8 +802,8 @@ header .header-logo a {
 @media only screen and (max-width: 768px) {
   header .header-logo a {
     width: 51px;
-    height: 24px;
-    background-size: 51px 24px;
+    height: 51px;
+    background-size: 51px 51px;
   }
 }
 
@@ -1341,13 +1341,13 @@ img.projectlink:hover {
   content: '\201D';
 }
 
-#skills .skills-list img {
+/* #skills .skills-list img {
   width: 7.4rem;
   height: 7.4rem;
   margin: 0 auto 1.2rem auto;
   display: inline-block;
   border-radius: 50%;
-}
+} */
 /* control nav */
 #skills .flex-control-nav {
   width: 100%;
@@ -1425,7 +1425,7 @@ i.express {
   }
   #skills-tools {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(7, 1fr);
   }
 
   #skills-list p {
@@ -1498,6 +1498,12 @@ i.icon-arrow-up:hover {
   background-color: #222222;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-7px);
+}
+img.toolsicon {
+  width: 3.1rem;
+  height: 3.1rem;
+  display: inline-block;
+  margin-bottom: -0.4rem;
 }
 @media only screen and (max-width: 600px) {
   i.icon-arrow-up {
