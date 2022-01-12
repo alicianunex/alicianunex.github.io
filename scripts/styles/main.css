@@ -262,7 +262,7 @@ title:after {
 }
 .animate li {
   line-height: 40px;
-  margin: 0;
+  margin: 2.5rem;
 }
 @-webkit-keyframes opacity {
   0% {
@@ -952,7 +952,7 @@ header .header-logo a {
     font-size: 2rem;
   }
   .home-content-tablecell h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 768px) {

@@ -1,18 +1,9 @@
 (function () {
   var bodyEl = document.body,
-    openbtn = document.getElementById('open-button'),
-    closebtn = document.getElementById('close-button'),
     isOpen = false;
 
   function init() {
     initEvents();
-  }
-
-  function initEvents() {
-    openbtn.addEventListener('click', toggleMenu);
-    if (closebtn) {
-      closebtn.addEventListener('click', toggleMenu);
-    }
   }
 
   function toggleMenu() {
