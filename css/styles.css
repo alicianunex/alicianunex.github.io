@@ -3029,7 +3029,6 @@ img.u-pull-left {
   }
 
   .main-nav a {
-    font-family: var(--font-2);
     font-size: var(--text-md);
     font-weight: 400;
     line-height: var(--vspace-0_875);
